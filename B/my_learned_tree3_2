@@ -1,0 +1,15 @@
+digraph TREE {
+    node2 [label="y = 0"];
+    node1 -> node2 [label="True"];
+    node1 [label="x3 = 1?"];
+    node3 [label="y = 0"];
+    node1 -> node3 [label="False"];
+    node0 -> node1 [label="True"];
+    node0 [label="x1 = 3?"];
+    node5 [label="y = 0"];
+    node4 -> node5 [label="True"];
+    node4 [label="x4 = 4?"];
+    node6 [label="y = 1"];
+    node4 -> node6 [label="False"];
+    node0 -> node4 [label="False"];
+}
